@@ -9,4 +9,9 @@
             </li>
         </a>
     @endforeach
+    <a href="{{route('createPokemon')}}">
+        <h3>
+            CATCH A NEW POKEMON!
+        </h3>
+    </a>
 @endsection
