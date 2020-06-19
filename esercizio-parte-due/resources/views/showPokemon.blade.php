@@ -1,6 +1,7 @@
 @extends('layouts.mainLayout')
 
 @section('content')
+<div class="showEditCreatePKMN">
     <h3>
         NOME: {{$pokemon['Name']}}
     </h3>
@@ -24,5 +25,6 @@
             DESTROY
         </h6>
     </a>
+</div>
     
 @endsection
