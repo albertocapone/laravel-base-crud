@@ -5,6 +5,7 @@
 <form action="{{route('updatePokemon', $pokemon['id'])}}" method="POST">
 
     @csrf
+    @method('POST')
 
     <label for="Name">NAME:</label>
     <input type="text" name="Name" value="{{$pokemon['Name']}}">

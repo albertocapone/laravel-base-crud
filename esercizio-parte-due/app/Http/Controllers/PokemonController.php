@@ -46,7 +46,7 @@ class PokemonController extends Controller
         return redirect()->route('pokedex');
     }
 
-    public function store(Request $request, $id){
+    public function store(Request $request){
         $updateData = $request->all();
         $pokemon = new Pokemon;
 

@@ -11,7 +11,7 @@ Route::get('createPokemon', 'PokemonController@create')->name('createPokemon');
 
 Route::post('storePokemon', 'PokemonController@store')->name('storePokemon');
 
-Route::post('destroyPokemon/{id}', 'PokemonController@destroy')->name('destroyPokemon');
+Route::get('destroyPokemon/{id}', 'PokemonController@destroy')->name('destroyPokemon');
 
 Route::get('editPokemon/{id}', 'PokemonController@edit')->name('editPokemon');
 

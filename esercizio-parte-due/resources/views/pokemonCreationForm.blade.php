@@ -2,9 +2,10 @@
 
 @section('content')
 
-<form action="{{route('createPokemon')}}" method="POST">
+<form action="{{route('storePokemon')}}" method="POST">
 
     @csrf
+    @method('POST')
 
     <label for="Name">NAME:</label>
     <input type="text" name="Name">
